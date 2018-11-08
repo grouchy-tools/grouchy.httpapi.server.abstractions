@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net451;netstandard2.0</TargetFrameworks>
+    <Product>Grouchy.HttpApi.Server.Abstractions</Product>
+    <Title>Grouchy.HttpApi.Server.Abstractions</Title>
+    <Description>Web API common library</Description>
+    <Authors>Andrew Craven</Authors>
+    <RootNamespace>Grouchy.HttpApi.Server.Abstractions</RootNamespace>
+    <AssemblyName>Grouchy.HttpApi.Server.Abstractions</AssemblyName>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Grouchy.HttpApi.Server.Abstractions</PackageId>
+    <PackageTags>http;web;api;common</PackageTags>
+    <PackageLicenseUrl>https://github.com/grouchy-tools/grouchy.httpapi.server.abstractions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/grouchy-tools/grouchy.httpapi.server.abstractions</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Grouchy.Abstractions" Version="0.0.1-preview0003" />
+  </ItemGroup>
+</Project>
